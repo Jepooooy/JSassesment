@@ -22,16 +22,16 @@ const NFT = {
     "bling": _bling,
 }
 NFTs.push(NFT);
-console.log("Minted: " + _name);
+console.log("Minted:" + _name);
 }
 
 // create a "loop" that will go through an "array" of NFT's
 // and print their metadata with console.log()
 function listNFTs () {
-for(let i = 0; i < NFTs.length; i++) {
-    console.log("\nID " + (i + 1));
+for(let i = 0; i <NFTs.length; i++) {
+    console.log("\nID " +(i + 1));
     console.log("Name: " + NFTs[i].name);
-    console.log("Eycolor: " + NFTs[i].eyecolor);
+    console.log("Eyecolor: " + NFTs[i].eyecolor);
     console.log("ShirtType: " + NFTs[i].shirtType);
     console.log("Bling: " + NFTs[i].bling);
 }
